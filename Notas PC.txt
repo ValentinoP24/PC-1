@@ -1,0 +1,14 @@
+Comandos Git:
+pwd: Nos muestra la ruta de carpetas en la que te encuentras ahora mismo.
+mkdir: Nos permite crear carpetas (por ejemplo, mkdir Carpeta-Importante).
+touch: Nos permite crear archivos (por ejemplo, touch index.html).
+rm: Nos permite borrar un archivo o carpeta (por ejemplo, rm index.html).
+cat: Ver el contenido de un archivo (por ejemplo, cat index.html).
+ls: Nos permite cambiar ver los archivos de la carpeta donde estamos ahora mismo.
+ls -a: Mostrar todos los archivos, incluso los ocultos.
+ls -l: Ver todos los archivos como una lista.
+cd: Nos permite navegar entre carpetas. 
+cd /: Ir a la ruta principal
+cd o cd ~: Ir a la ruta de tu usuario
+cd .. (cd + dos puntos): Regresar una carpeta hacia atrás.
+clear: Para limpiar la terminal. Podemos usar los atajos de teclado Ctrl + L o Command + L en Mac.
