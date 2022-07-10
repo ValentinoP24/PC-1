@@ -1,0 +1,16 @@
+.Parrafo1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    border: 10px solid black;
+    padding: 10px;
+    background-color: darkred;
+}
+
+.Parrafo2 {
+    width: 200px;
+    height: auto;
+    background-color: darkred;
+    overflow: auto;
+}

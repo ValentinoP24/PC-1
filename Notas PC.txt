@@ -12,3 +12,74 @@ cd /: Ir a la ruta principal
 cd o cd ~: Ir a la ruta de tu usuario
 cd .. (cd + dos puntos): Regresar una carpeta hacia atrás.
 clear: Para limpiar la terminal. Podemos usar los atajos de teclado Ctrl + L o Command + L en Mac.
+
+CSS: CSS significa hojas de estilo de cascada y es lenguaje de hojas de estilo. CSS nos permite definir la -
+apariencia de cada lemento dentro de los documentos HTML.
+
+Está basado n la reglas, es decir, te permite aplicar estilos de manera selectiva a elemento HTML.
+
+Las hojas de estilos aparencieron alrededor del año 1970. Ya que se observó la necesidad de definir un mecanismo que
+permitiera aplicar de forma consistente diferentes estilos a los documentos electrónicos.
+
+El organismo W3C, encargado de crear todos los estándares relacionado con la web, propuso la creación de un lenguaje
+de hojas de estilos específico para el lenguaje HTML.
+
+A finales de 1996, el W3C publicó la primera recomendación oficial, conocida como "CSS nivel 1"
+
+El 1 de mayo de 1998, el grupo de trabajo de CASS publica su segunda recomendación oficial, conocida como -
+"CSS nivel 2".
+
+La aparición de CSS 3 se materializó en el año 2014 coon el movimiento de HTML 5. Vendría a aportar sluciones a la -
+mayoría de las necesidades de los diseñadores y a permitir finalmente cubrir el objetivo principal del lenguaje, la -
+separacion del contenido de la presentación.
+
+3 maneras de aplicar CSS:
+Hacerlo wsobre la etiqueta con el atributo STYLE=""
+En el head, insetar la etiqueta <STYLE>
+Buscar un archivo externo con un <LINK/>
+
+Sintaxis de CSS:
+
+Está compuesta por:
+
+La propiedad que es un identificador.
+
+El valor que describe como las características debes ser manejadas por el motor.
+
+Box Model:
+Nos permite posicionar y alinear diversos tipos de elementos. Todo en CSS es una caja.
+
+Box Model - Content:
+Width: Controla la anchura de la caja.
+Height: Controla la altura de la caja.
+
+Box Model - Overflow:
+Cuando un elemento tiene un alto fijo o ancho fijo, cualquier contenido que axceda a la caja será visible.
+Esto genera como un problema que si después viene otro contenido, se va a superponer
+
+Propiedad: Overflow tiene 4 valores posibles:
+Visible: Valor por defecto. El excedente es visible.
+Hidden: El excedente no se muestra
+Scroll: Genera una barra de scroll en los dos ejes (x/y) del elemento aunque no se necesite.
+Auto: Genera el scroll solo en el eje necesario.
+
+Box Model - Padding:
+Establece el espacio de relleno requerido por todos los lados de un elemento.
+padding: 10px 50px 30px 0;
+
+Box Model - Border:
+Permite modificar el aspecto de cada uno de los cuatro bordes de la caja de un elemento.
+Para cada borde se puede establecer su anchura o grosor, su color y su estilo.
+Border-top: 1px solid red;
+Border-right:1px solid red;
+Border-bottom: 1px solid red;
+Border-left: 1px solid red;
+
+A diferencia de los márgenes y padding, los bordes se forman con 3 valores.
+Tipo de borde (border-style)
+Grosor (-width)
+Color (-color)red;
+
+Box Model - Margin:
+Define cuatro propiedades para controlar cada uno de los márgenes horizontales y verticales de un elemento.
+Margin: 10px 50px 30px 0;
