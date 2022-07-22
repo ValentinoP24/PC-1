@@ -1,0 +1,40 @@
+body {background-color: black;}
+
+@font-face {
+    font-family: 'FuenteTitulo' ;
+    src: url(./Fuentes/AntonRegular/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'FuenteSubtitulo';
+    src: url(./Fuentes/PressStart2P/PressStart2P-Regular.ttf);
+}
+
+
+.TituloPrincipal {font-family: 'FuenteTitulo'; color: darkorange;}
+
+.Piluso {
+    height: 500px;
+    width: 500px;
+    background-image: url(./Imagenes/Piluso.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.Contenedor {
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;}
+
+.Cuadrado {height: 200px;
+           width: 200px;}
+
+.c-1 {background-color: red;}
+
+.c-2 {background-color: blue;}
+
+.c-3 {background-color: yellow;}
+
+

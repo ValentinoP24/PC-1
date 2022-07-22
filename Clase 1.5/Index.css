@@ -1,0 +1,24 @@
+h1 {color: black; background-color: blue;}
+
+h3 {color: blue;}
+
+.titulo1 {color: red;}
+
+.titulo2 {color: green;}
+
+.titulo3 {color: yellow;}
+#titulo4 {color: violet;}
+
+.cuadrado1 {width: 500px;
+            height: 500px;
+            background-color: blue;}
+
+.cuadrado2 {width: 500px;
+            height: 500px;
+            background-color: red;}
+
+.messi {width: 500px;
+        height: 500px;
+        background-image: url(/Imagenes/Messi.jfif);
+        background-size: cover;
+        background-position: center;}
